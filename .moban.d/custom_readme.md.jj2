@@ -1,1 +1,35 @@
-{% extends "README.md.jj2" %}
+# echarts-cities-js
+
+Inspired by [all-the-cities](https://github.com/zeke/all-the-cities), it brings [cities1000](https://www.npmjs.com/package/cities1000) npm package, which in turn came from [geonames.org](http://download.geonames.org/export/dump/) data.
+
+
+## 安装 - Installation
+
+```
+npm install {{name}}
+```
+
+## 版权 - License
+
+All data coordiates are under CC licenses
+The code is under MIT
+
+## 维护 - Maintenance
+
+```
+pip install moban
+npm install
+gulp
+moban
+```
+
+## 138,398 city by country name
+{% for country in all_cities %}
+{% if country is string %}
+
+## {{ country }}
+
+{% for city in all_cities[country] %}{{city}},{%endfor%}
+{% endif %}
+
+{% endfor %}

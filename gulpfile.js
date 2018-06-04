@@ -5,7 +5,8 @@ var gulp = require('gulp');
 require('require-dir')('build/tasks');
 
 const TASKS = [
-  'pyecharts_cities'
+  'pyecharts_cities',
+  'readme'
 ];
 
 gulp.task("default", TASKS);

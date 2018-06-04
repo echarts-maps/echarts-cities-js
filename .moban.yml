@@ -4,7 +4,9 @@ configuration:
   - ".moban.d"
   configuration: echarts-cities-js.yml
 targets:
-  - README.md: custom_readme.md.jj2
+  - output: README.md
+    template: custom_readme.md.jj2
+    configuration: cities.yml
   - output: CHANGELOG.md
     configuration: changelog.yml
     template: changelog.md.jj2

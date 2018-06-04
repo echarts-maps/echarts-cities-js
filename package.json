@@ -12,6 +12,8 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "json2yaml": "^1.1.0",
+    "pug": "^2.0.3",
     "require-dir": "^1.0.0"
   }
 }
