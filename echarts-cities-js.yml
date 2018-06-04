@@ -1,0 +1,8 @@
+name: "echarts-cities-js"
+organisation: ""
+author: "C.W."
+contact: ""
+company: ""
+copyright_year: 2018
+license: MIT
+description: "Provide pyecharts with 138,398 cities of the world with a population of at least 1000 inhabitants"

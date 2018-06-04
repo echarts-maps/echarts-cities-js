@@ -1,0 +1,17 @@
+{
+  "name": "echarts-cities-js",
+  "version": "1.0.0",
+  "description": "Provide pyecharts with 138,398 cities of the world with a population of at least 1000 inhabitants",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "C.W.",
+  "license": "MIT",
+  "dependencies": {
+    "all-the-cities": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "require-dir": "^1.0.0"
+  }
+}

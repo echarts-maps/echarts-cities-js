@@ -1,0 +1,14 @@
+{
+    "JUPYTER_URL": "/nbextensions/echarts-cities-js",
+    "GITHUB_URL": "https://echarts-cities-js.github.io/echarts-cities-js/echarts-cities-js",
+    "JUPYTER_ENTRY": "echarts-cities-js/index",
+    "JS_FOLDER": "echarts-cities-js",
+    "PINYIN_MAP": {
+        /* "Chinese text": "Chinese pinyin or nickname", */
+        /* "伦敦": "lundun", */
+    },
+    "FILE_MAP": {
+        /* "nick name": "map js file name" */
+        /* "lundun": "london", */
+    }
+}
