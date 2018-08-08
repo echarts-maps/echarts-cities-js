@@ -6,7 +6,7 @@ Inspired by [all-the-cities](https://github.com/zeke/all-the-cities), it brings 
 ## 安装 - Installation
 
 ```
-npm install {{name}}
+npm install echarts-cities-js
 ```
 
 ## 版权 - License
