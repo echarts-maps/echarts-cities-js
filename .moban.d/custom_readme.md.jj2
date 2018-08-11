@@ -29,7 +29,7 @@ moban
 
 ## {{ country }}
 
-{% for city in all_cities[country] %}{{city}},{%endfor%}
+{% for city in all_cities[country] %}{{city}}, {%endfor%}
 {% endif %}
 
 {% endfor %}
